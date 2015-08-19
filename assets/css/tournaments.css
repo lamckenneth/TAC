@@ -1,0 +1,462 @@
+body, html {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	cursor: default;
+	background: #F6F6F6;
+}
+
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	.menu-item {
+		display: none;
+	}
+
+	.menu-item:first-child {
+		display: block;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.link {
+		width: 100%;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		z-index: 100;
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 8%;
+		color: #355C7D;
+	}
+
+	#tournament-img {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+		-webkit-border-radius: 1%;
+	    -moz-border-radius: 1%;
+	    -o-border-radius: 1%;
+	    border-radius: 1%;
+		border: 0.3em solid #F8CA00;
+	}
+
+	#description-container {
+		margin-top: 5%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#description {
+		line-height: 2em;
+		font-weight: 600;
+		color: #355C7D;
+	}
+
+	/**Ladder Rankings*/
+	#ladders-container {
+		margin-top: 10%;
+		overflow: auto;
+		margin-left: auto;
+		margin-right: auto;
+		color: #355C7D;
+	}
+
+	#ladders-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#ladders-description {
+		margin: 5%;
+		line-height: 2em;
+		font-weight: 600;
+	}
+
+	#rules:hover {
+		color: black;
+	}
+
+	/**Tournaments*/
+	#tournaments-container {
+		margin-top: 10%;
+		overflow: auto;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		color: #355C7D;
+	}
+
+	#tournaments-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#tournaments-img {
+		margin: 3% 3% 0% 3%;
+	}
+
+	.img-container {
+		width: 250px;
+		height: 350px;
+		display: inline-block;
+		margin-left: 100px;
+		cursor: pointer;
+		margin-bottom: 5%;
+	}
+
+	.tournaments-img {
+		width: 250px;
+		height: 350px;
+	}
+
+	.img-container:nth-child(1) {
+		margin-left: 0px;
+	}
+
+	.img-container .after {
+		position: relative;
+	    top: -355px;
+	    width: 250px;
+	    height: 350px;
+	    display: none;
+	    color: #F6F6F6;
+	    font-size: 1.3em;
+	    font-weight: 500;
+	}
+
+	.img-container:hover .after {
+	    display: block;
+	    background: rgba(0, 0, 0, .6);
+	}
+
+	.text {
+		position: relative;
+		top: 46%;
+	}
+
+
+	/**Details*/
+	.detail-container {
+		margin-top: 10%;
+		font-weight: 600;
+		line-height: 2em;
+		color: #355C7D;
+	}
+
+	#wtt-detail {
+		margin-bottom: 5%;
+	}
+
+	.specific-text {
+		font-size: 2em;
+		text-align: center;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.specific-tournaments-img {
+		border: 0.3em solid #F8CA00;
+		margin-top: 5%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 90%;
+	}
+
+	.detail {
+		width: 90%;
+		margin-top: 5%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#tournaments-container {
+		display: none;
+	}
+
+	.inner-link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.inner-link:hover {
+		color: black;
+	}
+}
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
+	/**Menu*/
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		position: fixed;
+		z-index: 100;
+	}
+
+	.menu-item {
+		position: fixed;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		top: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	#announcements {
+		right: 3%;
+	}
+
+	#tournaments {
+		right: 19%;
+	}
+
+	#practices {
+		right: 33%;
+	}
+
+	#officers {
+		right: 45%;
+	}
+
+	#about-us {
+		right: 56%;
+	}
+
+	#home {
+		left: 3%;
+	}
+
+
+	/**Page*/
+	#page {
+		position: absolute;
+		top: 14%;
+		width: 100%;
+		height: 100%;
+		color: #355C7D;
+	}
+
+
+	/**Title*/
+	#title-container {
+		
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#tournament-img {
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+		-webkit-border-radius: 1%;
+	    -moz-border-radius: 1%;
+	    -o-border-radius: 1%;
+	    border-radius: 1%;
+		border: 0.3em solid #F8CA00;
+	}
+
+	#description-container {
+		margin: 2% 3% 0% 3%;
+	}
+
+	#description {
+		line-height: 2em;
+		font-weight: 600;
+	}
+
+
+	/**Ladder Rankings*/
+	#ladders-container {
+		margin-top: 5%;
+		overflow: auto;
+	}
+
+	#ladders-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#ladders-description {
+		margin: 2% 3% 1% 3%;
+		line-height: 2em;
+		font-weight: 600;
+	}
+
+	#rules:hover {
+		color: black;
+	}
+
+
+	/**Tournaments*/
+	#tournaments-container {
+		margin-top: 5%;
+		overflow: auto;
+		text-align: center;
+	}
+
+	#tournaments-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#tournaments-img {
+		margin: 3% 3% 0% 3%;
+	}
+
+	.img-container {
+		width: 250px;
+		height: 350px;
+		display: inline-block;
+		margin-left: 100px;
+		cursor: pointer;
+		margin-bottom: 5%;
+	}
+
+	.tournaments-img {
+		width: 250px;
+		height: 350px;
+	}
+
+	.img-container:nth-child(1) {
+		margin-left: 0px;
+	}
+
+	.img-container .after {
+		position: relative;
+	    top: -355px;
+	    width: 250px;
+	    height: 350px;
+	    display: none;
+	    color: #F6F6F6;
+	    font-size: 1.3em;
+	    font-weight: 500;
+	}
+
+	.img-container:hover .after {
+	    display: block;
+	    background: rgba(0, 0, 0, .6);
+	}
+
+	.text {
+		position: relative;
+		top: 46%;
+	}
+
+
+	/**Details*/
+	.detail-container {
+		margin: 0% 3% 1% 3%;
+		position: absolute;
+		font-weight: 600;
+		line-height: 2em;
+	}
+
+	#singles-detail {
+		display: none;
+	}
+
+	#doubles-detail {
+		display: none;
+	}
+
+	#wtt-detail {
+		display: none;
+	}
+
+	.specific-img-container {
+		display: none;
+	}
+
+	.inner-link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.inner-link:hover {
+		color: black;
+	}
+}

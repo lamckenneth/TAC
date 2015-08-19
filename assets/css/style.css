@@ -1,0 +1,183 @@
+/**This website was created by Kenneth Lam, TAC Webmaster of Spring 2015, and Kenneth Lam alone! 
+Any future generations using this code better appreciate my hard work!*/
+
+/**Colors
+* = colors being used
+1. First Blue - 0B486B
+2. Second Lighter Blue/Green - 005F6B
+3. Third Lighter Blue - 355C7D *
+4. Not too white white - F6F6F6 *
+5. The perfect gray - 838689 
+6. Sexy gold - F8CA00 *
+*/
+
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	/**Home Page*/
+	body, html {
+		font-family: 'Roboto', sans-serif;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		cursor: default;
+		background: #355C7D;
+	}
+
+	#text {
+		text-align: center;
+		color: #F8CA00;
+		margin-top: 5%;
+		z-index: 1;
+		font-weight: 700;
+		font-size: 3.5em;
+		font-style: italic;
+	}
+
+	#img {
+		display: none;
+	}
+
+	.menu {
+		cursor: pointer;
+	    width: 80%;
+	    padding: 3% 0% 3% 0%;
+	    text-align: center;
+	    margin-right: auto;
+	    margin-left: auto;
+	    margin-top: 10%;
+	    background: #355C7D;
+	    color: #F8CA00;
+	    font-size: 1.3em;
+	    font-weight: 700;
+	    z-index: 1;
+	    -webkit-border-radius: 5%;
+	    -moz-border-radius: 5%;
+	    -o-border-radius: 5%;
+	    border-radius: 5%;
+	    border: solid #F8CA00;
+	    -webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.menu:last-child {
+		margin-bottom: 5%;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+}
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
+	body, html {
+		font-family: 'Roboto', sans-serif;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		cursor: default;
+		background: url("../img/tennis.png") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	/**Home Page*/
+	#container {
+		width: 100%;
+		height: auto;
+	}
+
+	#overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+	}
+
+	#img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 1;
+	}
+
+	#text {
+		display: block;
+		position: absolute;
+		color: #F8CA00;
+		left: 38.03%;
+		top: 5%;
+		z-index: 1;
+		font-weight: 700;
+		font-size: 3.5em;
+		font-style: italic;
+	}
+
+	.menu {
+		cursor: pointer;
+	    width: 16%;
+	    height: 8%;
+	    text-align: center;
+	    background: #355C7D;
+	    color: #F8CA00;
+	    font-size: 1.3em;
+	    font-weight: 700;
+	    z-index: 1;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    border-radius: 50%;
+	    border: solid #F8CA00;
+	    -webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.menu-active {
+		width: 17%;
+		height: 9%;
+		font-size: 1.4em;
+	}
+
+	.menu-text {
+		position: relative;
+		top: 21.25%;
+	}
+
+	#about-us {
+		position: absolute;
+		top: 25%;
+		left: 20%;
+	}
+
+	#officers {
+		position: absolute;
+		top: 25%;
+		right: 20%;
+	}
+
+	#practices {
+		position: absolute;
+		top: 50%;
+		left: 10%;
+	}
+
+	#tournaments {
+		position: absolute;
+		top: 50%;
+		right: 10%;
+	}
+
+	#announcements {
+		position: absolute;
+		top: 75%;
+		left: 42.57%;
+	}
+}

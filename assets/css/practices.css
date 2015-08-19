@@ -1,0 +1,224 @@
+body, html {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	cursor: default;
+	background: #F6F6F6;
+}
+
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	.menu-item {
+		display: none;
+	}
+
+	.menu-item:first-child {
+		display: block;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.link {
+		width: 100%;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		z-index: 100;
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 8%;
+		color: #355C7D;
+	}
+
+	#description-container {
+		margin-top: 2%;
+		color: #355C7D;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#description {
+		line-height: 2em;
+		font-weight: 600;
+	}
+
+
+	/**Official Practice Location and Times*/
+	#times-container {
+		margin-top: 10%;
+		overflow: auto;
+		color: #355C7D;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#times-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#info-container {
+		margin-top: 5%;
+		line-height: 2em;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+}
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
+	/**Menu*/
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		position: fixed;
+		z-index: 100;
+	}
+
+	.menu-item {
+		position: fixed;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		top: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	#announcements {
+		right: 3%;
+	}
+
+	#tournaments {
+		right: 19%;
+	}
+
+	#practices {
+		right: 33%;
+	}
+
+	#officers {
+		right: 45%;
+	}
+
+	#about-us {
+		right: 56%;
+	}
+
+	#home {
+		left: 3%;
+	}
+
+
+	/**Page*/
+	#page {
+		position: absolute;
+		top: 14%;
+		width: 100%;
+		height: 100%;
+		color: #355C7D;
+	}
+
+
+	/**Title*/
+	#title-container {
+		
+	}
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#description-container {
+		margin: 2% 3% 0% 3%;
+	}
+
+	#description {
+		line-height: 2em;
+		font-weight: 600;
+	}
+
+
+	/**Official Practice Location and Times*/
+	#times-container {
+		margin-top: 5%;
+		overflow: auto;
+	}
+
+	#times-title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+	#info-container {
+		margin: 2% 3% 0% 3%;
+		line-height: 2em;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+}

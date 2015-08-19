@@ -1,0 +1,364 @@
+body, html {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	cursor: default;
+	background: #F6F6F6;
+}
+
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	.menu-item {
+		display: none;
+	}
+
+	.menu-item:first-child {
+		display: block;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.link {
+		width: 100%;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		z-index: 100;
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 8%;
+		color: #355C7D;
+	}
+
+	#join-container {
+		margin-top: 8%;
+		width: 86%;
+		line-height: 2em;
+		font-weight: 700;
+		background: #355C7D;
+		color: #F8CA00;
+		padding: 1%;
+		margin-right: auto;
+		margin-left: auto;
+		border: 0.3em solid #F8CA00;
+	}
+
+	#app {
+		color: #F6F6F6;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#app:hover {
+		color: black;
+	}
+
+	#app-detail {
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#app-detail:hover {
+		color: black;
+	}
+
+	#fb {
+		color: #F6F6F6;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#fb:hover {
+		color: black;
+	}
+
+	#how {
+		text-align: center;
+	}
+
+	#announcements-container {
+		margin-top: 10%;
+		overflow: auto;
+		width: 90%;
+		line-height: 2em;
+		margin-left: auto;
+		margin-right: auto;
+		color: #355C7D;
+	}
+
+	.announcement {
+		overflow: auto;
+		border: 0.3em solid #355C7D;
+		padding: 2%;
+		margin-bottom: 4%;
+	}
+
+	.name {
+		font-weight: 700;
+		font-size: 1.3em;
+	}
+
+	.date {
+		margin-top: 2%;
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	.message {
+		margin-top: 3%;
+		font-weight: 700;
+	}
+
+	.inner-link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.inner-link:hover {
+		color: black;
+	}
+}
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
+	/**Menu*/
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		position: fixed;
+		z-index: 100;
+	}
+
+	.menu-item {
+		position: fixed;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		top: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	#announcements {
+		right: 3%;
+	}
+
+	#tournaments {
+		right: 19%;
+	}
+
+	#practices {
+		right: 33%;
+	}
+
+	#officers {
+		right: 45%;
+	}
+
+	#about-us {
+		right: 56%;
+	}
+
+	#home {
+		left: 3%;
+	}
+
+
+	/**Page*/
+	#page {
+		position: absolute;
+		top: 14%;
+		width: 100%;
+		height: 100%;
+		color: #355C7D;
+	}
+
+
+	/**Title*/
+	#title-container {
+		
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+
+	/**Announcements*/
+	#announcements-container {
+		margin: 3% 0% 0% 3%;
+		overflow: auto;
+		width: 57%;
+		float: left;
+		line-height: 2em;
+	}
+
+	.announcement {
+		overflow: auto;
+		border: 0.3em solid #355C7D;
+		padding: 2%;
+	}
+
+	.announcement:last-child {
+		margin-bottom: 3%;
+	}
+
+	.name {
+		float: left;
+		font-weight: 700;
+		font-size: 1.3em;
+	}
+
+	.date {
+		float: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	.message {
+		float: left;
+		margin-top: 2%;
+		font-weight: 700;
+	}
+
+	.inner-link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.inner-link:hover {
+		color: black;
+	}
+
+
+	/**Join*/
+	#join-container {
+		margin-top: 3%;
+		width: 30%;
+		float: right;
+		line-height: 2em;
+		font-weight: 700;
+		background: #355C7D;
+		color: #F8CA00;
+		-webkit-border-radius: 5%;
+	    -moz-border-radius: 5%;
+	    -o-border-radius: 5%;
+	    border-radius: 5%;
+		padding: 1%;
+		position: fixed;
+		right: 3%;
+	}
+
+	#app {
+		color: #F6F6F6;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#app:hover {
+		color: black;
+	}
+
+	#app-detail {
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#app-detail:hover {
+		color: black;
+	}
+
+	#fb {
+		color: #F6F6F6;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	#fb:hover {
+		color: black;
+	}
+}

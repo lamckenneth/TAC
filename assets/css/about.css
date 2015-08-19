@@ -1,0 +1,318 @@
+body, html {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	cursor: default;
+	background: #F6F6F6;
+}
+
+/**Mobile Version*/
+@media (max-width: 480px) {
+	.menu-item {
+		display: none;
+	}
+
+	.menu-item:first-child {
+		display: block;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.link {
+		width: 100%;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    text-align: center;
+		text-decoration: none;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		z-index: 100;
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: 8%;
+		color: #355C7D;
+	}
+
+	.box {
+		margin-top: 10%;
+		overflow: auto;
+	}
+
+	.text {
+		font-weight: 700;
+		line-height: 2em;
+		color: #355C7D;
+	}
+
+	.img {
+		border: 0.3em solid #F8CA00;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+	/**First*/
+	#friends {
+		width: 85%;
+	}
+
+	#first-description-container {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#first-description {
+		padding-top: 5%;
+	}
+
+
+	/**Second*/
+	#lawrence {
+		width: 85%;
+	}
+
+	#second-description-container {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#second-description {
+		padding-top: 5%;
+	}
+
+
+	/**Third*/
+	#fun {
+		width: 85%;
+	}
+
+	#third-description-container {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#third-description {
+		padding-top: 5%;
+	}
+
+
+	/**Fourth*/
+	#fourth {
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	#fourth-description-container {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#fb:hover {
+		color: black;
+	}
+}
+
+
+/**Laptop Version*/
+@media (min-width: 481px) {
+	/**Menu*/
+	#menu-container {
+		width: 100%;
+		height: 10%;
+		background: #355C7D;
+		position: fixed;
+		z-index: 100;
+	}
+
+	.menu-item {
+		position: fixed;
+		color: #F8CA00;
+		font-size: 1.3em;
+		font-weight: 700;
+		top: 3%;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.link {
+		text-decoration: none;
+		color: #F8CA00;
+		-webkit-transition: 0.3s;
+	    -moz-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;}
+
+	.link-active {
+		color: #F6F6F6;
+	}
+
+	.menu-active {
+		color: #F6F6F6;
+	}
+
+	#announcements {
+		right: 3%;
+	}
+
+	#tournaments {
+		right: 19%;
+	}
+
+	#practices {
+		right: 33%;
+	}
+
+	#officers {
+		right: 45%;
+	}
+
+	#about-us {
+		right: 56%;
+	}
+
+	#home {
+		left: 3%;
+	}
+
+
+	/**Page*/
+	#page {
+		position: absolute;
+		top: 14%;
+		width: 100%;
+		height: 100%;
+		color: #355C7D;
+	}
+
+
+	/**Title*/
+	#title-container {
+		
+	}
+
+	#title {
+		text-align: center;
+		font-size: 2em;
+		font-weight: 700;
+	}
+
+
+	/**Descriptions*/
+	.box {
+		margin: 3% 3% 0% 3%;
+		overflow: auto;
+	}
+
+	.text {
+		font-weight: 700;
+		line-height: 2em;
+	}
+
+	.img {
+		border: 0.3em solid #F8CA00;
+	}
+
+
+	/**First*/
+	#friends {
+		width: 40%;
+		float: left;
+	}
+
+	#first-description-container {
+		width: 55%;
+		float: right;
+	}
+
+	#first-description {
+		padding-top: 17%;
+	}
+
+
+	/**Second*/
+	#lawrence {
+		width: 40%;
+		float: right;
+	}
+
+	#second-description-container {
+		width: 55%;
+		float: left;
+	}
+
+	#second-description {
+		padding-top: 27%;
+	}
+
+
+	/**Third*/
+	#fun {
+		width: 40%;
+		float: left;
+	}
+
+	#third-description-container {
+		width: 55%;
+		float: right;
+	}
+
+	#third-description {
+		padding-top: 20%;
+	}
+
+
+	/**Fourth*/
+	#fourth {
+		margin-bottom: 2%;
+	}
+
+	#fourth-description-container {
+		float: left;
+	}
+
+	#fb:hover {
+		color: black;
+	}
+}
