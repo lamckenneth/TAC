@@ -30,223 +30,168 @@ $(document).ready(function() {
 
 	$("#jack").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#jack-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#nathan").click(function() {
 		$("#jack-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#nathan-bio").css("display", "block");
-		$("html, body").animate({scrollTop: $(document).height()}, 400);
-	});
-
-	$("#suchi").click(function() {
-		$("#nathan-bio").css("display", "none");
-		$("#jack-bio").css("display", "none");
-		$("#jane-bio").css("display", "none");
-		$("#kenneth-bio").css("display", "none");
-		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
-		$("#chris-bio").css("display", "none");
-		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
-		$("#tony-bio").css("display", "none");
-		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
-		$("#suchi-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#jane").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#jane-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#kenneth").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#lawrence").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "block");
-		$("html, body").animate({scrollTop: $(document).height()}, 400);
-	});
-
-	$("#lisa").click(function() {
-		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
-		$("#jane-bio").css("display", "none");
-		$("#kenneth-bio").css("display", "none");
-		$("#lawrence-bio").css("display", "none");
-		$("#jack-bio").css("display", "none");
-		$("#chris-bio").css("display", "none");
-		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
-		$("#tony-bio").css("display", "none");
-		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
-		$("#lisa-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#chris").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#chris-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#jeanine").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "block");
-		$("html, body").animate({scrollTop: $(document).height()}, 400);
-	});
-
-	$("#debbie").click(function() {
-		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
-		$("#jane-bio").css("display", "none");
-		$("#kenneth-bio").css("display", "none");
-		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
-		$("#chris-bio").css("display", "none");
-		$("#jeanine-bio").css("display", "none");
-		$("#jack-bio").css("display", "none");
-		$("#tony-bio").css("display", "none");
-		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
-		$("#debbie-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#tony").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#tony-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
 	$("#jordan").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jack-bio").css("display", "none");
-		$("#robert-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
 		$("#jordan-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
-	$("#robert").click(function() {
+	$("#vicky").click(function() {
 		$("#nathan-bio").css("display", "none");
-		$("#suchi-bio").css("display", "none");
 		$("#jane-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "none");
-		$("#lisa-bio").css("display", "none");
+		$("#jack-bio").css("display", "none");
 		$("#chris-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "none");
-		$("#debbie-bio").css("display", "none");
 		$("#tony-bio").css("display", "none");
 		$("#jordan-bio").css("display", "none");
-		$("#jack-bio").css("display", "none");
-		$("#robert-bio").css("display", "block");
+		$("#jacks-bio").css("display", "none");
+		$("#vicky-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
+
+	$("#jacks").click(function() {
+		$("#nathan-bio").css("display", "none");
+		$("#jane-bio").css("display", "none");
+		$("#kenneth-bio").css("display", "none");
+		$("#lawrence-bio").css("display", "none");
+		$("#jack-bio").css("display", "none");
+		$("#chris-bio").css("display", "none");
+		$("#jeanine-bio").css("display", "none");
+		$("#tony-bio").css("display", "none");
+		$("#jordan-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "block");
+		$("html, body").animate({scrollTop: $(document).height()}, 400);
+	});
+
 
 });

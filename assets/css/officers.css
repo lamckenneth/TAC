@@ -389,10 +389,6 @@ body, html {
 		display: none;
 	}
 
-	#suchi-bio {
-		display: none;
-	}
-
 	#jane-bio {
 		display: none;
 	}
@@ -405,19 +401,12 @@ body, html {
 		display: none;
 	}
 
-	#lisa-bio {
-		display: none;
-	}
 
 	#chris-bio {
 		display: none;
 	}
 
 	#jeanine-bio {
-		display: none;
-	}
-
-	#debbie-bio {
 		display: none;
 	}
 
@@ -429,7 +418,11 @@ body, html {
 		display: none;
 	}
 
-	#robert-bio {
+	#vicky-bio {
+		display: none;
+	}
+
+	#jacks-bio {
 		display: none;
 	}
 }
