@@ -40,6 +40,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#jack-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -56,6 +57,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#nathan-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -72,6 +74,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#jane-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -88,6 +91,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#kenneth-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -104,6 +108,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#lawrence-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -120,6 +125,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#chris-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -136,6 +142,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#jeanine-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -152,6 +159,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#tony-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -168,6 +176,7 @@ $(document).ready(function() {
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#jordan-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -184,6 +193,7 @@ $(document).ready(function() {
 		$("#jordan-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#vicky-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -200,6 +210,7 @@ $(document).ready(function() {
 		$("#jordan-bio").css("display", "none");
 		$("#vicky-bio").css("display", "none");
 		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#jacks-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
@@ -216,7 +227,25 @@ $(document).ready(function() {
 		$("#jordan-bio").css("display", "none");
 		$("#vicky-bio").css("display", "none");
 		$("#jacks-bio").css("display", "none");
+		$("#ray-bio").css("display", "none");
 		$("#erin-bio").css("display", "block");
+		$("html, body").animate({scrollTop: $(document).height()}, 400);
+	});
+
+	$("#ray").click(function() {
+		$("#nathan-bio").css("display", "none");
+		$("#jane-bio").css("display", "none");
+		$("#kenneth-bio").css("display", "none");
+		$("#lawrence-bio").css("display", "none");
+		$("#jack-bio").css("display", "none");
+		$("#chris-bio").css("display", "none");
+		$("#jeanine-bio").css("display", "none");
+		$("#tony-bio").css("display", "none");
+		$("#jordan-bio").css("display", "none");
+		$("#vicky-bio").css("display", "none");
+		$("#jacks-bio").css("display", "none");
+		$("#erin-bio").css("display", "none");
+		$("#ray-bio").css("display", "block");
 		$("html, body").animate({scrollTop: $(document).height()}, 400);
 	});
 
